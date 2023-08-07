@@ -129,8 +129,8 @@ function shuffle(array) {
   function unflipCards() {
     lockBoard = true;
     setTimeout(() => {
-      firstCardIndex.textContent = '?'; // Flip back to question mark
-      secondCardIndex.textContent = '?'; // Flip back to question mark
+      firstCardIndex.textContent = '?'; 
+      secondCardIndex.textContent = '?'; 
       isFlipped[firstCardIndex.getAttribute('data-index')] = false;
       isFlipped[secondCardIndex.getAttribute('data-index')] = false;
       resetBoard();
